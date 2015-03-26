@@ -1,0 +1,9 @@
+<form action="/new" method="post">
+    <label for='post-text'>Enter new post:</label>
+    <input id='post-text' name='text'/>
+    <button type='submit'>Add</button>
+</form>
+
+<% if message %>
+  <%= message %>
+<% end %>
